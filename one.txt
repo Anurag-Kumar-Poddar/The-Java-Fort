@@ -1,0 +1,99 @@
+Java Intorduction and Setups
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   * Why java not any other language:
+       
+     i. Java is OOP language.
+     ii. It is both compiled and interprated.
+     iii. In java we can go deep inside the things and learn how that is acctually happning unlike pyhton and others where we just use hundreds of pre-build libraies without kowing there implementation details.
+
+   * How does a java program run:
+  
+      . At first the source code is compiled and a byte code file is generated.
+      . Next the byte code file is sent to the JVM which then is converted to machine code.
+      . The byte code file can be shared and run on any system (only requirement the the system should have JVm installed in it) making java a platform indepent language.
+
+       |-----------------------------------------------------------------------------------------|
+       | Hello.java ---------> Javac ---------> Hello.class ---------> JVM ---------> Hello.exe  |
+       |-----------------------------------------------------------------------------------------|
+     
+   * What is JVM:
+  
+      . It stands for Java Virtula Machine.
+      . It is a program written to convert java bytecode file to machine language.
+                                                                                               
+  * What does JVM Contains and what they do?
+
+    i. Class loader:
+      # This do the scanning of the classes, this first uses the class path (the location where we have stored our classes) then starts scanning the classes.
+      # This follows three steps LOADING, INITIALIZING AND LINKING.
+      # In loading the classes are first loaded, next in initialization all the default values defiend (if any) as initialized , and finally in linking the link between different classes written are stablesided.
+
+    ii. Bytecode Verifier:
+      # It is a program that acts as a gatekeeper. It ensure that the code passed to Java Interprate is in a correct state to be executed and it will not hamper the Java Interpreter. \
+      # No code is allowed to run in any means until it has passes the verifier's tests.
+
+    iii. JVM language stack:
+      # It is same as of the other languages stack like C.
+      # It can be thought as a temporary memory stack that holds, local variable, partial computaion results and plays a crucial role in method invok and return.
+
+    iv. Method area:
+      # It is a shared memory location in JVM that sotres classes, interfaces and metadata for the classes (other related information of classes).
+    
+    v. Registers:
+      # It is used to run instruction in JVM.
+      # As JVm can run multiple threads at once, each register has its own PC Register to hold the address of the currently executing JVM instruction. Once the instruction is executed, the PC register is updated with the next instruction.
+
+    vi. Execution engine:
+      # The execution engine is responsible for executing the bytecode (compiled Java code) that is loaded into the JVM. The execution engine reads the bytecode and performs the necessary operations to carry out the program's                     instructions.
+
+    Vii. Just In time (JIT) compiler:
+      # It boost the performance of the java program, it runs the bytecode file at run time.
+      # JIT compiler basically is a program that intellignetlly run a program to prevent the system to run same program with same output repeatedly.
+
+    
+    Detailed Steps:
+      
+    1. Download the JDK:
+    
+      # Visit the official Oracle website or OpenJDK for the latest version. 
+      # Choose the installer compatible with your operating system (Windows, macOS, or Linux). 
+      # For Windows, you can typically choose between an online or offline installer. 
+      # If using the online installer, you'll need to remain connected to the internet during installation. 
+      # For the offline installer, you can download the full package and install it without an internet connection. 
+      
+    2. Run the Installer:
+      
+      # Locate the downloaded installer file and double-click it to begin. 
+      # If prompted, grant the installer administrative permissions. 
+      # The installation wizard will guide you through the process. 
+      
+    3. Choose Installation Location:
+      
+      # The wizard will likely prompt you to choose a destination folder for the Java installation. 
+      # You can accept the default location or specify a custom path. 
+    
+    4. Complete the Installation:
+      
+      # Follow the on-screen instructions to proceed with the installation. 
+      # Once the installation is complete, you'll see a confirmation message. 
+      # Click "Close" to exit the wizard. 
+      
+    5. Configure Environment Variables:
+      
+      JAVA_HOME:
+      
+      # You'll need to set the JAVA_HOME environment variable to point to the JDK installation directory. 
+      # On Windows, you can do this by navigating to System Properties -> Advanced system settings -> Environment Variables. 
+      # Create a new system variable named JAVA_HOME and set its value to the JDK's installation path. 
+      
+      PATH:
+      
+      # Add the bin directory of your JDK installation to the PATH environment variable. 
+      # This allows you to execute Java commands from any directory in your command prompt or terminal. 
+      
+    6. Verify the Installation:
+      
+      # Open a command prompt or terminal and type java -version. 
+      # If Java is installed correctly, you'll see the Java version information displayed. 
+    
