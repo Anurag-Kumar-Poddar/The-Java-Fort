@@ -1,2 +1,14 @@
 The Java Basics:
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---------------------------------------------------------------------------------------
+Everything in Java consists of Classes and Objects. That represents real world entities and their behaviours.
+
+# What are Classes and Objects in Java?
+
+  * A Class is a blueprint to create objects, it contains instance variables and methods.
+  * An Object is an instance of the Class that has some properties and behavious.
+
+# What are data types in Java?
+
+  * Data types defies the size and type of value that a varialble can store in java.
+  * In Java data types are of two type pre-defined and user-defined.
+  
