@@ -12,3 +12,7 @@ Everything in Java consists of Classes and Objects. That represents real world e
   * Data types defies the size and type of value that a varialble can store in java.
   * In Java data types are of two type pre-defined and user-defined.
   
+# What are loops in Java?
+
+ * Loops are block of code that are used to perform a task repetedly until certail condition is ment.
+ 
