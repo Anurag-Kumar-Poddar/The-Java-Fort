@@ -1,6 +1,6 @@
 Agenda:
 
-  1. ArrayList, List
+  1. ArrayList, List, sets
   2. Map, HashMap
   3. Optional
   4. Stream, filters, foreach
