@@ -2,6 +2,6 @@ Agenda:
 
   1. ArrayList, List, sets
   2. Map, HashMap
-  3. Optional
+  3. Optional: Helps to remove null pointer exception
   4. Stream, filters, foreach
   5. Interfaces
