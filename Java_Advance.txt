@@ -1,0 +1,7 @@
+Agenda:
+
+  1. ArrayList, List
+  2. Map, HashMap
+  3. Optional
+  4. Stream, filters, foreach
+  5. Interfaces
